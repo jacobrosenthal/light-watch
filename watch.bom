@@ -1,25 +1,29 @@
-Partlist exported from /Users/jakerosenthal/Desktop/one/light-watch/watch.sch at 5/23/12 6:44 PM
+Partlist exported from /Users/jakerosenthal/Desktop/two/light-watch/watch.sch at 5/23/12 6:46 PM
 
-Qty Value          Device           Parts                             
-1                  LED0603          LED6                              
-2   0.1uF          CAP0603-CAP      C5, C6                            
-2   1.0uF          CAP0603-CAP      C9, C10                           
-1   1.5k           RESISTOR0603-RES R9                                
-1   1k             RESISTOR0603     R1                                
-1   1uF            CAP0603-CAP      C7                                
-5   4PLLCCLED      4PLLCCLED        U$2, U$3, U$4, U$5, U$7           
-1   10k            RESISTOR0603     R2                                
-1   10k            RESISTOR0603-RES R4                                
-1   10uF           CAP_POL1206      C4                                
-1   488+           RESISTOR0603     R3                                
-1   500mA          PTCSMD           F1                                
-1   ATMEGA168      ATMEGA168        IC2                               
-1   CSTCE8M00G55Z  RESONATORSMD     U$1                               
-1   EVQP7          EVQP7            U$8                               
-1   FT232RLSSOP    FT232RLSSOP      IC1                               
-2   M01SMD         M01SMD           JP1, JP2                          
-6   M01SMD-4.5X1.5 M01SMD-4.5X1.5   MISO, MOSI, RST, RXLED, SCK, TXLED
-1   MAX1555        MAX1555          U1                                
-1   MIC5205-3.3    V_REG_LDOSMD     V1                                
-1   TLC5941        TLC5941          U$6                               
-1   USBMICROB      USBMICROB        X1                                
+Qty Value         Device           Parts                                                         
+2                 NMOSSOT23        T1, T2                                                        
+2   .1uf          CAP0805          C5, C15                                                       
+2   0.1uF         CAP0805          C2, C6                                                        
+2   1.0uF         CAP0805          C9, C10                                                       
+1   1uf           CAP0805          C13                                                           
+1   2k            RESISTOR0805-RES R3                                                            
+5   4PLLCCLED     4PLLCCLED        U$2, U$3, U$4, U$5, U$7                                       
+1   10k           RESISTOR0805-RES R4                                                            
+1   10uf          CAP0805          C14                                                           
+2   18p           CAP0805          C1, C4                                                        
+2   22            RESISTOR0805-RES R5, R6                                                        
+1   100k          RESISTOR0805-RES R1                                                            
+1   470           RESISTOR0805-RES R2                                                            
+1   500mA         PTCSMD           F1                                                            
+5   ?uF           CAP0805          C3, C7, C8, C11, C12                                          
+1   ATMEGA32U4-AU ATMEGA32U4-AU    U$14                                                          
+1   AVR_SPI_PRG_6 AVR_SPI_PRG_6    J1                                                            
+1   EVQP7         EVQP7            U$8                                                           
+1   MAX1555       MAX1555          U1                                                            
+5   NUD3105       NUD3105          U$6, U$10, U$11, U$12, U$13                                   
+1   OSHW-LOGOS    OSHW-LOGOS       U$15                                                          
+1   PD3035        PD3035           U$16                                                          
+1   S8261         S8261            U$9                                                           
+12  TEST-POINT3   TEST-POINT3      TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP9, TP10, TP12, TP13, TP14
+1   USBMICROB     USBMICROB        X1                                                            
+1   XTAL-5X3.2    XTAL-5X3.2       U$17                                                          
