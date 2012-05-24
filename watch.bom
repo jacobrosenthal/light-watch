@@ -1,11 +1,25 @@
-Partlist exported from /Users/jakerosenthal/Desktop/zero/light-watch/watch.sch at 5/23/12 6:45 PM
+Partlist exported from /Users/jakerosenthal/Desktop/one/light-watch/watch.sch at 5/23/12 6:44 PM
 
-Qty Value           Device          Parts         
-1                   BATTERY245MM    BAT1          
-1                   LED0603         LED1          
-4                   R-US_R0805      R3, R6, R7, R8
-1   JUMPER-4WAY-2MM JUMPER-4WAY-2MM U$9           
-1   PLCC            PLCC            U$4           
-1   PLCC-2          PLCC-2          U$1           
-1   PLCC-4          PLCC-4          U$2           
-1   PLCC-6          PLCC-6          U$3           
+Qty Value          Device           Parts                             
+1                  LED0603          LED6                              
+2   0.1uF          CAP0603-CAP      C5, C6                            
+2   1.0uF          CAP0603-CAP      C9, C10                           
+1   1.5k           RESISTOR0603-RES R9                                
+1   1k             RESISTOR0603     R1                                
+1   1uF            CAP0603-CAP      C7                                
+5   4PLLCCLED      4PLLCCLED        U$2, U$3, U$4, U$5, U$7           
+1   10k            RESISTOR0603     R2                                
+1   10k            RESISTOR0603-RES R4                                
+1   10uF           CAP_POL1206      C4                                
+1   488+           RESISTOR0603     R3                                
+1   500mA          PTCSMD           F1                                
+1   ATMEGA168      ATMEGA168        IC2                               
+1   CSTCE8M00G55Z  RESONATORSMD     U$1                               
+1   EVQP7          EVQP7            U$8                               
+1   FT232RLSSOP    FT232RLSSOP      IC1                               
+2   M01SMD         M01SMD           JP1, JP2                          
+6   M01SMD-4.5X1.5 M01SMD-4.5X1.5   MISO, MOSI, RST, RXLED, SCK, TXLED
+1   MAX1555        MAX1555          U1                                
+1   MIC5205-3.3    V_REG_LDOSMD     V1                                
+1   TLC5941        TLC5941          U$6                               
+1   USBMICROB      USBMICROB        X1                                
